@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>raphaelite</title>
-    <link>http://raphaelmerx.github.io/</link>
+    <link>https://raphaelmerx.github.io/</link>
     <description>Recent content on raphaelite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Jun 2016 10:10:56 -0700</lastBuildDate>
-    <atom:link href="http://raphaelmerx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raphaelmerx.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to display the Python virtualenv in your prompt using Prezto</title>
-      <link>http://raphaelmerx.github.io/post/prezto-virtualenv/</link>
+      <link>https://raphaelmerx.github.io/post/prezto-virtualenv/</link>
       <pubDate>Fri, 10 Jun 2016 10:10:56 -0700</pubDate>
       
-      <guid>http://raphaelmerx.github.io/post/prezto-virtualenv/</guid>
+      <guid>https://raphaelmerx.github.io/post/prezto-virtualenv/</guid>
       <description>
 
 &lt;p&gt;This example uses the Prezto &lt;code&gt;sorin&lt;/code&gt; theme. If you use a different Prezto theme, change &lt;code&gt;sorin&lt;/code&gt; to whatever your theme name is.&lt;/p&gt;
