@@ -67,11 +67,11 @@
 
     
 
-<p>This example uses the Prezto <code>sorin</code> theme. If you use a different Prezto theme, change <code>sorin</code> to whatever your theme name is.</p>
-
 <p>Here&rsquo;s what the end result looks like. I&rsquo;m using Pyenv to automatically activate virtualenvs when I enter directories.</p>
 
 <script type="text/javascript" src="https://asciinema.org/a/0a0qjl0vz5tz7q6vwdqofix8x.js" id="asciicast-0a0qjl0vz5tz7q6vwdqofix8x" async></script>
+
+<p>This example uses the Prezto <code>sorin</code> theme. If you use a different Prezto theme, change <code>sorin</code> to whatever your theme name is.</p>
 
 <h2 id="1-add-python-to-your-plugins-in-zpreztorc">1. Add <code>python</code> to your plugins in <code>~/.zpreztorc</code>:</h2>
 
@@ -93,7 +93,7 @@ zstyle ':prezto:load' pmodule \
 
 <p>Loading the Python module gives us access to a <code>python-info</code> function that we&rsquo;ll later use in the theme configuration.</p>
 
-<h2 id="2-change-the-theme-configuration-to-display-the-virtualenv-in-the-prompt">2. Change the theme configuration to display the virtualenv in the prompt</h2>
+<h2 id="2-change-your-theme-setup">2. Change your theme setup</h2>
 
 <p>In <code>~/.zprezto/modules/prompt/functions/prompt_sorin_setup</code>, make the following changes:</p>
 
@@ -114,6 +114,8 @@ zstyle ':prezto:load' pmodule \
 
 <h3 id="2-in-prompt-sorin-setup-define-a-style-for-the-virtualenv-name">2. In <code>prompt_sorin_setup</code>, define a style for the virtualenv name:</h3>
 
+<p>In the following example, we&rsquo;ll display the virtuanenv name in yellow and within parenthesis.</p>
+
 <pre><code>function prompt_sorin_setup {
   ...
   # Define a style for the virtualenv name
@@ -123,9 +125,7 @@ zstyle ':prezto:load' pmodule \
   ...
 </code></pre>
 
-<p>This will display the virtualenv name in yellow, and wrapped in parenthesis.</p>
-
-<h3 id="3-at-the-end-of-prompt-sorin-setup-add-the-virtualenv-info-to-the-prompt">3. At the end of <code>prompt_sorin_setup</code>, add the virtualenv info to the <code>PROMPT</code></h3>
+<h3 id="3-at-the-end-of-prompt-sorin-setup-change-the-prompt">3. At the end of <code>prompt_sorin_setup</code>, change the <code>PROMPT</code></h3>
 
 <p>Replace</p>
 
@@ -137,10 +137,11 @@ zstyle ':prezto:load' pmodule \
 <pre><code class="language-zsh">  PROMPT='$python_info[virtualenv]${SSH_TTY:+&quot;%F{9}%n%f%F{7}@%f%F{3}%m%f &quot;}%F{4}${_prompt_sorin_pwd}%(!. %B%F{1}#%f%b.)${editor_info[keymap]} '
 </code></pre>
 
-<p><a href="https://github.com/raphaelmerx/prezto#customization">As advised in the Prezto docs</a>, you should fork the Prezto repo, and commit your changes. Next time you switch computers, just clone your forked repository instead of the origin, and you&rsquo;re set!</p>
+<h4 id="think-editing-code-within-prezto-is-wrong">Think editing code within Prezto is wrong?</h4>
 
-<p>You can find my full <code>prompt_sorin_setup</code> file <a href="https://github.com/raphaelmerx/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup">on
-Github</a></p>
+<p>Nah. <a href="https://github.com/raphaelmerx/prezto#customization">As advised in the Prezto docs</a>, you should fork the Prezto repo, and commit your changes. Next time you switch computers, just clone your forked repository instead of the upstream, and you&rsquo;re set.</p>
+
+<p>You can find my full <code>prompt_sorin_setup</code> file <a href="https://github.com/raphaelmerx/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup">on Github</a>.</p>
 
 </div>
 
