@@ -10,24 +10,33 @@
     <atom:link href="https://rapha.dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>the panacea trap</title>
+      <title>The Panacea Trap</title>
       <link>https://rapha.dev/post/the-panacea-trap/</link>
       <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rapha.dev/post/the-panacea-trap/</guid>
       <description>&lt;p&gt;&amp;ldquo;When all you have is a hammer, everything looks like a nail&amp;rdquo;. Yet we often strive to find the hammer, and make everything look like a nail.&lt;/p&gt;
 
-&lt;p&gt;The world is getting more complex, which makes it harder to grasp. At the same time, social media and on-demand video have decreased our attention span to less than that of a goldfish.[1] We live in the perfect breeding-ground for simple, all-emcompassing theories. Whether these theories are true is irrelevant. What makes their popularity is that they are compelling, reassuring and easy to grasp.&lt;/p&gt;
+&lt;p&gt;Our environment is getting more complex, which means it&amp;rsquo;s also harder to grasp. At the same time, social media and on-demand video have decreased our attention span to less than that of a goldfish.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;strong&gt;We live in the perfect breeding-ground for simple, all-emcompassing theories.&lt;/strong&gt; Whether these theories are true is irrelevant. What makes their popularity is that they are compelling, reassuring, and easy to grasp.&lt;/p&gt;
 
-&lt;p&gt;In software engineering, the perfect embodiment of this phenomena is the turning of agile methodology into a religion that is followed by the letter. Attempting to remediate the failure of less flexible work methods that set details in advance, Agile embodies a more versatile approach that focuses on building the next step, and on adapting the product as more information comes to light. But as Agile became more popular, it turned into a large framework with its set of rules, priciples, and vocabulary. It was hailed as the response to all software problems. Your team of engineers is not delivering on time? Surely there&amp;rsquo;s an Agile rule they didn&amp;rsquo;t follow. The irony: Agile was created as a remedy to more rigid methodologies, and its followers turned it into an uncompromising panacea. Agile lacks agility in its own application.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In software engineering, the perfect embodiment of this phenomenon is the turning of agile methodology into a dogma&lt;/strong&gt; that is followed by the letter. Attempting to remediate the failure of less flexible work methods that set details in advance, Agile embodies a more versatile approach that focuses on building the next step, and on adapting the product as more information comes to light. But as Agile became more popular, it turned into a large framework with its set of rules, priciples, and vocabulary. It was hailed as the response to all software problems. Your team of engineers is not delivering on time? Surely there&amp;rsquo;s an Agile rule they didn&amp;rsquo;t follow. The irony: Agile was created as a remedy to more rigid methodologies, and its followers turned it into an uncompromising panacea. &lt;strong&gt;Agile lacks agility in its own application.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In academia, the adopted paradigm is the p-value. Driven by the temptation of judging all research using the same criteria, the academic world has chosen &amp;ldquo;p &amp;lt;= 0.05&amp;rdquo; has the one-size-fits-all rule for whether research is statistically significant or not. Consequently, researchers use p-hacking to find an assessment that is publishable, and those who refuse to use p-values don&amp;rsquo;t get published. Our attempts to narrow down the vast, complex problem of assessing research quality were foiled by Goodhart&amp;rsquo;s law, and ran headfirst into the illusion that there is a metric to capture an overall subjective problem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In academia, the adopted paradigm is the p-value.&lt;/strong&gt; Driven by the temptation of judging all research using the same criteria, the academic world has chosen &amp;ldquo;p &amp;lt;= 0.05&amp;rdquo; has the one-size-fits-all rule for whether research is statistically significant or not. Consequently, researchers use p-hacking to find an assessment that is publishable, and those who refuse to use p-values don&amp;rsquo;t get published. Our attempt to narrow down the vast, complex problem of assessing research quality was foiled by &lt;a href=&#34;https://en.wikipedia.org/wiki/Goodhart&#39;s_law&#34;&gt;Goodhart&amp;rsquo;s law&lt;/a&gt;, and ran headfirst into the illusion that there is a metric to capture an overall subjective problem.&lt;/p&gt;
 
-&lt;p&gt;Both software engineering and academia are complex, hard to asses worlds that belong to tight-knit communities. It makes them ripe to follow the latest trends en masse. They each chose paradigms without regards for whether they are useful or true, but rather because the chosen paradigms are compelling.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Both software engineering and academia are complex, hard to assess worlds that belong to tight-knit communities.&lt;/strong&gt; It makes them ripe to follow the latest trend en masse. They each chose paradigms without regards for whether they are useful or true, but rather because the chosen paradigms are compelling.&lt;/p&gt;
 
-&lt;p&gt;And what about politics? You were waiting for that one surely. Good policies are hard to define or measure, and political parties are built around partisanship, so the political world is ripe for adoption of panacea. That panacea might be small government, the fight against immigration, or against inequality. A measles outbreak? Migrants. Not enough jobs? Migrants. Too much taxes? You got it. Instead of looking into potential causes and solutions for individual problems, politics is dominated by panacea crusaders who picked their hammer and are thirsty for nails.&lt;/p&gt;
+&lt;p&gt;And what about politics? You were waiting for that one surely. Good policies are hard to define or measure, and political parties are built around partisanship, so &lt;strong&gt;the political world is ripe for adoption of panacea&lt;/strong&gt;. That panacea might be small government, the fight against immigration, or against inequality. Not enough jobs? Migrants. Too much taxes? Migrants. A measles outbreak? You got it. Instead of looking into potential causes and solutions for individual problems, politics is dominated by panacea crusaders who picked their hammer and are thirsty for nails.&lt;/p&gt;
 
-&lt;p&gt;Aquinas famously said: &amp;ldquo;fear the man of a single book&amp;rdquo;. Little did he know that the man of a thousand mobile apps would inherit the same flaws. We have access to a broader range of information than ever before. It&amp;rsquo;s disappointing that this easier, cheaper access to broad knowledge didn&amp;rsquo;t come with more prudence when we formulate theories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aquinas famously said: &amp;ldquo;fear the man of a single book&amp;rdquo;. Little did he know that the man of a thousand mobile apps would inherit the same flaws.&lt;/strong&gt; We have access to a broader range of information than ever before. It&amp;rsquo;s disappointing that this easier, cheaper access to broad knowledge didn&amp;rsquo;t come with more prudence when we formulate theories.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://internet.psych.wisc.edu/wp-content/uploads/532-Master/532-UnitPages/Unit-09/Attention_Goldfish_Abbreviated.pdf&#34;&gt;https://internet.psych.wisc.edu/wp-content/uploads/532-Master/532-UnitPages/Unit-09/Attention_Goldfish_Abbreviated.pdf&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     
